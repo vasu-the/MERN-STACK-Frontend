@@ -12,8 +12,8 @@ const DashboardPage = () => {
       {/* <button onClick={handleLogout}>Logout</button> */}
 
       <div className="dashboard-links">
-        <a href="/add-agent">Add Agent</a>
-        <a href="/upload">Upload CSV</a>
+        <a href="/add-agent">Add Agent</a>   {/* Link to Add Agent */}
+        <a href="/upload">Upload CSV</a>   {/* Link to Upload CSV */}
         <a href="/agent-task-distribution">Agent Task </a> {/* Link to AgentTaskDistribution */}
       </div>
     </div>
