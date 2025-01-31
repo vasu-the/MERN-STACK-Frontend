@@ -54,7 +54,7 @@ body {
 }
 
 .upload-container p.success {
-  color: green;
+  color: rgb(5, 78, 156);
 }
 
 /* Submit Button */

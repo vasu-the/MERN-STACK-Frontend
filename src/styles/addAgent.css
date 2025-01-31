@@ -37,7 +37,7 @@
 .add-agent-container button {
   width: 80%;
   padding: 10px 15px;
-  background-color: #28a745;
+  background-color: #2046b9;
   color: white;
   border: none;
   border-radius: 5px;
@@ -47,7 +47,7 @@
 }
 
 .add-agent-container button:hover {
-  background-color: #218838;
+  background-color: #235db4;
 }
 
 /* Mobile Responsiveness */
