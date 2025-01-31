@@ -1,0 +1,60 @@
+/* General Container Styling */
+.dashboard-container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Dashboard Header */
+.dashboard-container h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Links Container */
+.dashboard-links {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* Links Styling */
+.dashboard-links a {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.dashboard-links a:hover {
+  background-color: #0056b3;
+}
+
+/* Logout Button */
+/* .logout-button {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+} */
+
+/* .logout-button:hover {
+  background-color: #a71d2a;
+} */

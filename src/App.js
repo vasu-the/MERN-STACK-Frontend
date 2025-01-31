@@ -1,17 +1,26 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import LoginComponent from "../src/components/Login"; // Import the new LoginComponent
-import Dashboard from "../src/components/Dashboard";   // Import the Dashboard component
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import LoginPage from './pages/LoginPage';
+import DashboardPage from './pages/DashboardPage';
+import AddAgentPage from './pages/AddAgentPage';
+import UploadCSVPage from './pages/UploadCSVPage';
+import PrivateRoute from './routes/PrivateRoute';
+import AgentTaskDistribution from './pages/AgentTaskDistribution';
 
-const App = () => {
+
+function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/login" element={<LoginComponent />} /> {/* Login page */}
-        <Route path="/dashboard" element={<Dashboard />} /> {/* Dashboard page */}
+        <Route path="/" element={<LoginPage />} />
+        <Route path="/dashboard" element={<PrivateRoute><DashboardPage /></PrivateRoute>} />
+        <Route path="/add-agent" element={<PrivateRoute><AddAgentPage /></PrivateRoute>} />
+        <Route path="/upload" element={<PrivateRoute><UploadCSVPage /></PrivateRoute>} />
+        <Route path="/agent-task-distribution" element={<PrivateRoute><AgentTaskDistribution /></PrivateRoute>} />
+    
       </Routes>
     </Router>
   );
-};
+}
 
 export default App;

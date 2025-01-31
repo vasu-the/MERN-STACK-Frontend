@@ -1,0 +1,76 @@
+/* Page Background */
+body {
+  background-color: #f0f0f0; /* Light gray background */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Upload Container */
+.upload-container {
+  width: 100%;
+  max-width: 500px;
+  margin: 50px auto; /* Centered and a little spacing from the top */
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+}
+
+/* Heading */
+.upload-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form Inputs */
+.upload-container input[type="file"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+/* Error and Success Messages */
+.upload-container p {
+  text-align: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.upload-container p.error {
+  color: red;
+}
+
+.upload-container p.success {
+  color: green;
+}
+
+/* Submit Button */
+.upload-container button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  box-sizing: border-box;
+}
+
+.upload-container button:hover {
+  background-color: #0056b3;
+}

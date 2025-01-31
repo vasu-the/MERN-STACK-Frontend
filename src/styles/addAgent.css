@@ -1,0 +1,63 @@
+/* Container Styling */
+.add-agent-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+/* Header */
+.add-agent-container h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Input Fields */
+.add-agent-container input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.add-agent-container input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Button */
+.add-agent-container button {
+  width: 80%;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.add-agent-container button:hover {
+  background-color: #218838;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .add-agent-container {
+    padding: 15px;
+  }
+
+  .add-agent-container input,
+  .add-agent-container button {
+    font-size: 14px;
+  }
+}

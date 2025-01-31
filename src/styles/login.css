@@ -1,0 +1,71 @@
+/* Login Container */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 100px auto; /* Center the box vertically and horizontally */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+  }
+  
+  /* Header */
+  .login-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Input Fields */
+  .login-container input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  /* Additional styling for the login prompt message */
+.login-container p {
+  text-align: center;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+  
+  .login-container input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Login Button */
+  .login-container button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-sizing: border-box;
+  }
+  
+  .login-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Error Message */
+  .error-message {
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
